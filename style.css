@@ -116,6 +116,11 @@ a{
         top: 1200px;
         left: 40px;
     }
+    .animation{
+        transition: none;
+    }
+    
+
 }
 footer{
     position: relative;
