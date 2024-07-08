@@ -74,32 +74,35 @@ a{
     top:200px;
     margin-left: 10px;
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width:338px) {
     body{
-        width: 100%;
-        max-width: 100%;
-        height: 100%;
+        width: 100vw;
+        max-width: 338px;
+        height: 100vh;
         background-size: cover;
-        background-position: center;
+        background-position: center center;
         background-attachment: fixed;
         margin: 0;
         padding: 0;
-        overflow: scroll;
+        overflow-y: scroll;
     }
     h1{
         position: relative;
         top: 10px;
-        left: 80px;
+        left: 60px;
+        
     }
     #vestido{
         position: relative;
         bottom: -880px;
-        left: 40px;
+        left: 20px;
+        
     }
     h2{
         position: relative;
-        top: 850px;
-        left: 140px;
+        top: 830px;
+        left: 125px;
+        
     }
     #instagram{
         position: relative;
@@ -111,16 +114,24 @@ a{
         left: 15px;
         top: 920px;
     }
-    footer{
+    #copy{
         position: relative;
-        top: 1200px;
+        top: 1000px;
         left: 40px;
     }
     .animation{
         transition: none;
+        max-width: 100%;
+        height: 100%;
+    
     }
     
-
+   #mulher{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
 }
 footer{
     position: relative;
