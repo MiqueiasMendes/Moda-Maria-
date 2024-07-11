@@ -45,7 +45,26 @@ h2{
 .animation:hover{
      transform: scale(1.2);
 }
-
+.vestidos{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    margin-bottom: 10px;
+    display: inline;
+    cursor: pointer;
+}
+#penultimaroupa{
+    position: relative;
+    left: 500px;
+}
+#ultimaroupa{
+    position: relative;
+    left: 510px;
+}
+body.vestido{
+    height: 100vh;
+    width: 100vw;
+}
 #vestido{
     width: 250px;
     height: 250px;
